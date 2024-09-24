@@ -22,4 +22,8 @@ int main() {
         
         i = i + 1;
     } while (i <= n);
+
+    printf("I / n = %f\n", I / n);
+
+    return 0;
 }
