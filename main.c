@@ -11,5 +11,5 @@ int main() {
     double a = M_PI;             
     double b = (3.0 * M_PI) / 2; 
 
-    
+    srand(time(0));
 }
