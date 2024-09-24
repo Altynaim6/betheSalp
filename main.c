@@ -12,4 +12,14 @@ int main() {
     double b = (3.0 * M_PI) / 2; 
 
     srand(time(0));
+
+    do {
+        r = (b - a) * ((double)rand() / RAND_MAX) + a;
+        
+        I = I + sin(r) * r;
+        
+        printf("I / i = %f\n", I / i);
+        
+        i = i + 1;
+    } while (i <= n);
 }
